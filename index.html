@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //primitive value//
+
+        //string
+        //number
+        //boolean
+        //undefined
+        //null
+        //symbol
+
+/*let ami ="shawon"
+
+let tumi = ami
+    tumi="janina"
+
+console.log(tumi);*/
+
+
+
+/*let info = {
+    name:"shawon"
+}
+let another = info
+another.name="janina"
+
+console.log(info.name);
+console.log(another.name);*/
+
+
+
+
+/*let info = {
+    name:"shawon"
+}
+
+let another = {
+    name:"shawon"
+}
+console.log(info.name==another.name);*/
+
+
+// function vs method//
+
+/*function ami(){
+    console.log("shawon");
+}
+ami()
+
+let info ={
+    name:"shawon",
+    type: "male",
+    abcd:function () {
+        console.log("onik");
+    }
+}
+info.abcd()*/
+
+
+
+/*function ami() {
+        console.log("onik");
+    }
+    ami()
+
+
+let ami =function () {
+        console.log("onik");
+    }
+}
+ami()
+["annonimas function a hestting kaj kore na"]*/
+
+
+
+/*function ami(a,b="please enter your number/argument."){
+    console.log(a);
+    console.log(b);
+}
+ami(10,)
+["note:default vabe parameter value use."]*/
+
+
+
+/*function ami(a,...b){
+
+   let sum = 0
+   b.map((item)=>{
+sum+=item
+   })
+   console.log(a);
+   console.log(sum);
+ami(3,4,7,8)
+["note:rest oparetor"]*/
+
+
+/*sort & reverse
+
+let ami = [2,1,5,4,3,6,7,8,9]
+console.log(ami.sort());
+
+let tumi = [2,1,5,4,3,6,7,8,9]
+console.log(tumi.reverse());*/
+
+
+
+/*filter
+
+let age =[22, 11,57,22,18,12,54,16]
+
+let agecollection = age.filter((item)=>{
+    return item <= 18
+})
+console.log(agecollection);*/
+
+
+
+/*short array function
+
+let age =[22, 11,57,22,18,12,54,16]
+
+let agecollection = age.filter(item=> item <= 18)
+
+console.log(agecollection);*/
+
+
+/* add, modify & delete object
+
+let ami = {
+    "name":"hassan",
+    "age":34
+}
+ami.name="hassan"
+
+ami.phone = "01835598745" ["add"]
+
+ami.age = 18 ["modify"]
+
+delete ami.age ["delete"]
+
+console.log(ami);*/
+
+
+/*destructuring
+
+let info = {
+      "name":"hassan",
+       "age":34
+}
+
+let anotherinfo = {
+    ...info,
+    phn : "123"
+
+}
+
+let {name,phn:mobile,age} = anotherinfo
+
+console.log(mobile);*/ 
+
+
+
+//class or super
+
+/*class User {
+    constructor(name, age, mail){
+        this.name = name
+        this.age = age
+        this.mail = mail
+    }
+}
+
+let ami = new User("a",20,"a@gmail.com")
+let tumi = new User("b",21,"b@gmail.com")
+let amar = new User("c",22,"c@gmail.com")
+let tomar = new User("d",23,"d@gmail.com")
+
+console.log(ami);
+console.log(tumi);
+console.log(amar);
+console.log(tomar);
+
+
+class Vip extends User {
+    constructor(name, age, mail,nidcard){
+        super(name, age, mail)
+
+        this.nidcard = nidcard
+
+    }
+}
+
+let v = new Vip ("vip",100,"vip@gmail.com",635454)
+
+console.log(v);
+
+
+class Vvip extends Vip {
+    constructor(name, age, mail, nidcard, mobile){
+        super(name, age, mail, nidcard)
+
+        this.mobile = mobile
+
+    }
+}
+
+let vv = new Vvip ( "vvip", 200, "vvip@gmail.com", 635454, 4321321)
+
+console.log(vv);*/
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
